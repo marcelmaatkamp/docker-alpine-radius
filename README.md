@@ -37,5 +37,5 @@ To just test user and password:
 
 To debug:
 ```
- $ docker logs freeradius
+ $ docker logs freeradius-home
 ```
