@@ -7,9 +7,8 @@ To start
 ```
  $ docker run -d \
    --name freeradius \
-   -p 1812:1812 \
+   -p 1812:1812/udp \
    -p 1813:1813 \
    -p 18120:18120 \
-   -p 50937:50937 \
    marcelmaatkamp/freeradius
 ```
