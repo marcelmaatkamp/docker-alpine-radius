@@ -1,7 +1,7 @@
 FROM marcelmaatkamp/alpine-base
 
 RUN apk update
-RUN apk-install freeradius3-sqlite sqlite
+RUN apk-install freeradius3 freeradius3-sqlite freeradius3-radclient sqlite
 
 VOLUME /opt/db/
 VOLUME /etc/freeradius/certs
