@@ -1,7 +1,7 @@
 FROM marcelmaatkamp/alpine-base
 
 RUN apk update && apk upgrade && \
-    apk add --update freeradius3 freeradius3-sqlite freeradius3-radclient sqlite && \
+    apk add --update freeradius freeradius-sqlite freeradius-radclient sqlite && \
     rm /var/cache/apk/*
 
 VOLUME \
