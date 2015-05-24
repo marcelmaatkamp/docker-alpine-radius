@@ -2,6 +2,7 @@ FROM marcelmaatkamp/alpine-base
 
 RUN apk update && apk upgrade && \
     apk add --update freeradius freeradius-sqlite freeradius-radclient sqlite && \
+    chgrp radius  /var/run/radiusd && chmod g+rwx /var/run/radiusd/ \
     rm /var/cache/apk/*
 
 VOLUME \
