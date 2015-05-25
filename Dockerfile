@@ -14,4 +14,4 @@ EXPOSE \
     1813 \
     18120
 
-CMD radiusd /etc/raddb
+CMD radiusd -f
