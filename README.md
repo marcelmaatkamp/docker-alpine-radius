@@ -1,6 +1,6 @@
 # Freeradius Docker image
 
-Lightweight and fast Freeradius3 (3.0.6-r1) server Docker image. This image size is 12.28 MB, starts blazingly fast and is based on Alpine Linux. 
+Lightweight and fast Freeradius3 (3.0.6-r1) server Docker image. This image size is 6 MB, starts blazingly fast and is based on Alpine Linux. 
 
 To start: 
 
