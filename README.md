@@ -1,9 +1,8 @@
 # Freeradius Docker image
 
-Lightweight and fast Freeradius3 (3.0.6-r1) server Docker image. This image size is 6 MB, starts blazingly fast and is based on Alpine Linux. 
+Lightweight and fast Freeradius3 v3.0.11-r0 server. This image is based on the minimalistic Alpine Linux and is currently 62MB. 
 
 To start: 
-
 ```
  $ docker run -d \
    --name freeradius \
@@ -18,15 +17,13 @@ To start:
    marcelmaatkamp/freeradius
 ```
 
-To  test with username 'testing' and password 'password' on device '192.168.1.18' and secret 'SECRET':
-
+Once the image is started with the previous settings, one can test it with username 'testing' and password 'password' on device '192.168.1.18' and secret 'SECRET' in the following way:
 ```
- $ radtest testing password 192.168.1.18 0 SECRET
+$ radtest testing password 192.168.1.18 0 SECRET
 ```
 
-To debug:
-
+To debug inspect the logs of the freeradius container:
 ```
- $ docker logs freeradius
+$ docker logs freeradius
 ```
 
