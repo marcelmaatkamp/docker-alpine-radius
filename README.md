@@ -21,7 +21,7 @@ $ docker-compose up -d freeradius
 ```
 $ docker-compose up freeradius-test
 ```
-The docker-compose.yml contains a container valled 'freeradius-test' which will send a auth-request to the server which after succes will print
+The docker-compose.yml contains a container called 'freeradius-test' which will send a auth-request to the server which after succes will print
 ```
 freeradius-test_1  | Sending Access-Request of id 95 to 172.25.0.100 port 1812
 freeradius-test_1  | 	User-Name = "testing"
