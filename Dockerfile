@@ -8,6 +8,7 @@ RUN apk update && apk upgrade && \
     chgrp radius  /usr/sbin/radiusd && chmod g+rwx /usr/sbin/radiusd && \
     rm /var/cache/apk/*
 
+COPY start_radius.sh start_radius.sh
 VOLUME \
     /opt/db/ \
     /etc/freeradius/certs
@@ -17,4 +18,4 @@ EXPOSE \
     1813 \
     18120
 
-CMD radiusd -f
+CMD ["./start_radius.sh"]
