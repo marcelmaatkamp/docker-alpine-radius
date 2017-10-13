@@ -1,6 +1,6 @@
 # Freeradius Docker image
 
-Lightweight and fast Freeradius3 v3.0.11-r0 server. This image is based on the minimalistic Alpine Linux and is currently 62MB. 
+Lightweight and fast Freeradius3 v3.0.13-r2 server. This image is based on the minimalistic Alpine Linux and is currently 62MB. 
 
 ## How to use 
 
