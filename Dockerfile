@@ -14,7 +14,7 @@ VOLUME \
 
 EXPOSE \
     1812/udp \
-    1813 \
+    1813/udp \
     18120
 
 CMD ["radiusd","-xx","-f"]
