@@ -4,7 +4,7 @@ Lightweight and fast Freeradius3 server, this image is based on the minimalistic
 
 ## How to use 
 
-I have made a simple example setup in https://github.com/marcelmaatkamp/docker-compose-applications/tree/master/freeradius.  Set the ip-range which will connect to the server and the server-secret in `clients.conf`, set the user/password combination in `users`. 
+I have made a simple example setup in https://github.com/marcelmaatkamp/docker-compose-applications/tree/master/freeradius.  Set the ip-range which will connect to the server and the server-secret in [clients.conf](https://github.com/marcelmaatkamp/docker-compose-applications/blob/master/freeradius/clients.conf), set the user/password combination in [users](https://github.com/marcelmaatkamp/docker-compose-applications/blob/master/freeradius/users).
 
 ## Installation
 ```
