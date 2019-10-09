@@ -1,4 +1,4 @@
-FROM alpine:3.6
+FROM alpine:3
 MAINTAINER Marcel Maatkamp <m.maatkamp@gmail.com>
 
 WORKDIR /projects
